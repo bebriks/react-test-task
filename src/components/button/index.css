@@ -1,0 +1,16 @@
+.button {
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    color: var(--grey);
+    cursor: pointer;
+    &:hover {
+        background-color: var(--smoke-grey);
+    }
+    &:disabled {
+        border-color: #ccc;
+        color: #999;
+        cursor: not-allowed;
+    }
+}
