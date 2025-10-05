@@ -1,13 +1,12 @@
 .carousel-container {
-    max-width: fit-content;
+  max-width: fit-content;
 }
 .carousel__item-image {
-    width: 25rem;
+  width: 25rem;
 }
 .carousel__controll-buttons {
-    width: 100%;
-    .carousel__controll-button {
-        width: 50%;
-    }
-
+  width: 100%;
+  .carousel__controll-button {
+    width: 50%;
+  }
 }

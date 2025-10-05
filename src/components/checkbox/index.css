@@ -1,15 +1,15 @@
 .checkbox-container {
-    display: inline-flex;
-    align-items: center;
-    margin: 4px 8px 4px 0;
-    cursor: pointer;
-    position: relative;
-    padding: 8px 12px;
-    border: 2px solid #e0e0e0;
-    border-radius: 6px;
-    background: white;
-    transition: all 0.2s ease;
-    user-select: none;
+  display: inline-flex;
+  align-items: center;
+  margin: 4px 8px 4px 0;
+  cursor: pointer;
+  position: relative;
+  padding: 8px 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  background: white;
+  transition: all 0.2s ease;
+  user-select: none;
 }
 .disabled {
   border-color: #ccc;
@@ -17,82 +17,82 @@
   cursor: not-allowed;
 }
 .checkbox-container:hover {
-    border-color: #b0b0b0;
-    transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-color: #b0b0b0;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .checkbox-container.selected {
-    border-color: #007bff;
-    background-color: #f8f9ff;
-    box-shadow: 0 2px 8px rgba(0,123,255,0.2);
+  border-color: #007bff;
+  background-color: #f8f9ff;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.2);
 }
 
-.checkbox-container input[type="radio"] {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
+.checkbox-container input[type='radio'] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
 }
 
 /* Стили для обычных чекбоксов (размеры) */
 .checkbox-container .checkmark {
-    font-size: 14px;
-    font-weight: 500;
-    color: #333;
-    transition: color 0.2s ease;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.2s ease;
 }
 
 .checkbox-container.selected .checkmark {
-    color: #007bff;
-    font-weight: 600;
+  color: #007bff;
+  font-weight: 600;
 }
 
 .checkbox-label {
-    margin-left: 6px;
-    font-size: 12px;
-    color: #666;
-    background: #f5f5f5;
-    padding: 2px 6px;
-    border-radius: 10px;
+  margin-left: 6px;
+  font-size: 12px;
+  color: #666;
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 10px;
 }
 
 /* Стили для цветовых вариантов */
 .checkbox-container.color {
-    padding: 6px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding: 6px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .checkbox-container.color.selected {
-    border-color: #333;
-    box-shadow: 0 0 0 2px #007bff;
+  border-color: #333;
+  box-shadow: 0 0 0 2px #007bff;
 }
 
 .color-option {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    border: 1px solid #ddd;
-    transition: transform 0.2s ease;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease;
 }
 
 .checkbox-container.color.selected .color-option {
-    transform: scale(1.1);
-    border-color: #fff;
+  transform: scale(1.1);
+  border-color: #fff;
 }
 
 /* Стили для отключенных состояний */
 .checkbox-container.disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .checkbox-container.disabled:hover {
-    transform: none;
-    border-color: #e0e0e0;
-    box-shadow: none;
+  transform: none;
+  border-color: #e0e0e0;
+  box-shadow: none;
 }
